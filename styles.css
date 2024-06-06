@@ -1,18 +1,26 @@
 body {
     background-color: #252525;
-    margin:40px auto;
-    max-width:640px;
-    line-height:1.6;
-    font-size:18px;
-    color:#ffffff;
-    padding:0 10px;
+    margin: 40px auto;
+    max-width: 640px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 10px;
     font-family: monospace;
 }
 
 h1, h2, h3 {
-    line-height:1.2
+    line-height: 1.2;
 }
 
 h1, h2 {
-    text-align: center
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
