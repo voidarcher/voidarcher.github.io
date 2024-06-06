@@ -18,11 +18,11 @@ h1, h2 {
 }
 
 a:link, a:visited {
-    color: rgb(34, 231, 100);
+    color: rgb(228, 52, 52);
 }
   
 a:hover {
-    color: orange;
+    color: rgb(34, 231, 100);
 }
   
 a:active {
