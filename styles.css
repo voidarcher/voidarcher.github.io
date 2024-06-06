@@ -17,10 +17,6 @@ h1, h2 {
     text-align: center;
 }
 
-a, a:hover, a:visited, a:active {
-    text-decoration: none;
-}
-
 a:link, a:visited {
     color: rgb(55, 192, 255);
 }
