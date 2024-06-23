@@ -9,6 +9,14 @@ body {
     font-family: monospace;
 }
 
+pre {
+    font-family: monospace;
+    color: black;
+    background-color: #FFFFF0;
+    padding: 10px;
+    font-size: 100%;
+}
+
 h1, h2, h3 {
     line-height: 1.2;
 }
