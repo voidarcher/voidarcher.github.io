@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <link href="../styles.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="https://voidarcher.github.io/extra/favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>about</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <style>
-            .container {
-            min-height: 52vh;    
+    <title>voidarcher</title>
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="https://voidarcher.github.io/extra/favicon.ico">
+
+    <style>
+        .container {
+            min-height: 52vh;
             display: flex;
             flex-direction: column;
-            }
-        
-            .footer {
-                margin-top: auto;
-            }
-        </style>
-    </head>
+        }
+
+        .footer {
+            margin-top: auto;
+            text-align: center;
+        }
+    </style>
+</head>
 
     <body>
-
-        <!-- Title Bar -->
-        <header>
-            <div style="text-align: center">
-                <h1 style="color: rgb(55, 192, 255)">_ v o i d a r c h e r</h1>
-                    <a href="../index.html"; style="color: rgb(243, 211, 69); text-decoration: none">home</a>
-                    <a href="./about.html" style="color: rgb(243, 211, 69); text-decoration: none">about</a>
-                    <a href="./contact.html"; style="color: rgb(243, 211, 69); text-decoration: none">contact</a>
-                    <a href="./links.html"; style="color: rgb(243, 211, 69); text-decoration: none">links</a>
-                <p style="color: rgb(55, 192, 255)">-----------------------------------------------------------</p>
-            </div>
+        
+        <!-- TITLE BAR START -->
+        <header style="text-align: center;">
+            <h1 style="color: rgb(55, 192, 255);">_ v o i d a r c h e r</h1>
+            
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <a href="../index.html"  style="color: rgb(243, 211, 69); text-decoration: none;">home</a>
+                <a href="./about.html"   style="color: rgb(243, 211, 69); text-decoration: none;">about</a>
+                <a href="./contact.html" style="color: rgb(243, 211, 69); text-decoration: none;">contact</a>
+                <a href="./links.html"   style="color: rgb(243, 211, 69); text-decoration: none;">links</a>
+            </nav>
+            
+            <p style="color: rgb(55, 192, 255)">-----------------------------------------------------------</p>
         </header>
-    
-        <!-- whoami -->
-        <p>
-            I'm just some random guy, honestly. 
-        </p>
+        <!-- TITLE BAR STOP -->
+        
+        <main class="container">
 
-        <!-- Footer with copyright under CC-BY-NC 4.0 -->
-        <div class="container">
-            <div class="footer">
-                <a style="text-align: center; color: rgb(55, 192, 255);" href="https://creativecommons.org/licenses/by-sa/4.0/">
-                    <span>
-                        <p>voidarcher &copy 2024</p>
-                    </span>
+            <!-- Title of Article -->
+            <h2>About Me</h2>
+
+            <p>
+                Not really much to say. My main OS is Debian, which I landed on after the cliche Linux life cycle of
+                Ubuntu, then Fedora, then Arch, then Slackware, then Gentoo, then deciding I hate having to do stuff
+                like "uPdATe mY MaCHinE" and installing Debian 13 "Bullseye."
+            </p>
+
+            <p>
+                My hardware is completely unremarkable. A Dell Inspiron 15 5000 that I've had since 2020-ish. I actually
+                bought a ThinkPad T14 Gen 3 back in 2024 with the intention of replacing the Dell but...I mean the Dell 
+                still works so here I am. Probably the same logic that caused me to write this website from scratch in
+                nothing but HTML and CSS. Gonna make McMaster-Carr look like a dead turtle. 
+            </p>
+            
+            <!-- FOOTER START -->
+            <footer class="footer">
+                <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                style="color: rgb(55, 192, 255); text-decoration: none;"
+                >
+                Licensed under CC BY-SA 4.0
                 </a>
-            </div>
-        </div>
+            </footer>
+            <!-- FOOTER STOP -->
+
+        </main>
 
     </body>
-</html>
 
+</html>
