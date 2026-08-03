@@ -1,63 +1,73 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <link href="styles.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="https://voidarcher.github.io/extra/favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>voidarcher</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <style>
-            .container {
-            min-height: 52vh;    
+    <title>voidarcher</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://voidarcher.github.io/extra/favicon.ico">
+
+    <style>
+        .container {
+            min-height: 52vh;
             display: flex;
             flex-direction: column;
-            }
-        
-            .footer {
-                margin-top: auto;
-            }
-        </style>
-    </head>
+        }
+
+        .footer {
+            margin-top: auto;
+            text-align: center;
+        }
+    </style>
+</head>
 
     <body>
 
-        <!-- Title Bar -->
-        <header>
-            <div style="text-align: center">
-                <h1 style="color: rgb(55, 192, 255)">_ v o i d a r c h e r</h1>
-                    <a href="./index.html" style="color: rgb(243, 211, 69); text-decoration: none">home</a>
-                    <a href="./extra/about.html" style="color: rgb(243, 211, 69); text-decoration: none">about</a>
-                    <a href="./extra/contact.html" style="color: rgb(243, 211, 69); text-decoration: none">contact</a>
-                    <a href="./extra/links.html" style="color: rgb(243, 211, 69); text-decoration: none">links</a>
-                <p style="color: rgb(55, 192, 255)">-----------------------------------------------------------</p>
-            </div>
+        <header style="text-align: center;">
+            <h1 style="color: rgb(55, 192, 255);">_ v o i d a r c h e r</h1>
+
+            <nav>
+                <a href="./index.html"         style="color: rgb(243, 211, 69); text-decoration: none;">home</a>
+                <a href="./extra/about.html"   style="color: rgb(243, 211, 69); text-decoration: none;">about</a>
+                <a href="./extra/contact.html" style="color: rgb(243, 211, 69); text-decoration: none;">contact</a>
+                <a href="./extra/links.html"   style="color: rgb(243, 211, 69); text-decoration: none;">links</a>
+            </nav>
+            
+            <p style="color: rgb(55, 192, 255)">-----------------------------------------------------------</p>
         </header>
-    
-        <!-- List of Articles -->
-        <h3 style="color: rgb(34, 231, 100)">2026</h3>
 
-        <!-- Put new articles at top -->
-        <ul>
+        <main class="container">
 
-        <li>
-            <time>AUG 03</time> - <a href="./articles/linux-guide/linuxGuide.html">What Linux Distro is Best for Beginners?</a>
-        </li>
+            <section>
+                <h3 style="color: rgb(34, 231, 100);">2026</h3>
 
-        </ul>
+                <ul>
+                    <li>
+                        <time datetime="2026-08-03">AUG 03</time> —
+                        <a href="./articles/linux-guide/linuxGuide.html">
+                            What Linux Distro is Best for Beginners?
+                        </a>
+                    </li>
 
-        <!-- Footer with copyright under CC-BY-NC 4.0 -->
-        <div class="container">
-            <div class="footer">
-                <a style="text-align: center; color: rgb(55, 192, 255);" href="https://creativecommons.org/licenses/by-sa/4.0/">
-                    <span>
-                        <p>Licensed under CC-BY-SA 4.0</p>
-                    </span>
+                    <!-- For future links, copy the above li->/li -->
+                
+                </ul>
+            </section>
+
+            <footer class="footer">
+                <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                style="color: rgb(55, 192, 255); text-decoration: none;"
+                >
+                Licensed under CC BY-SA 4.0
                 </a>
-            </div>
-        </div>
+            </footer>
+
+        </main>
 
     </body>
-</html>
 
+</html>
